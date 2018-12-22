@@ -1,0 +1,4 @@
+rootProject.name = 'head-first-learning'
+
+include 'StrategyPattern'
+

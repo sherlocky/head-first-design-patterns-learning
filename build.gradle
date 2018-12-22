@@ -1,0 +1,31 @@
+buildscript {
+    // gradle 脚本自身需要使用的资源
+    repositories {
+        maven {
+            url maven_url
+        }
+    }
+}
+
+apply plugin: 'java'
+apply plugin: 'idea'
+
+group 'com.sherlocky.headfirst'
+version '1.0-SNAPSHOT'
+
+[compileJava, compileTestJava, javadoc]*.options*.encoding = 'utf-8'
+
+//设置jdk的版本
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+repositories {
+    // mavenCentral()
+    maven {
+        url maven_url
+    }
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}
