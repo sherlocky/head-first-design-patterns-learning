@@ -22,7 +22,8 @@
 **策略模式**定义了算法族，分别封装起来，让他们之间可以互相替换，此模式让算法的变化独立于使用算法的客户。
 
  
-## 02 Observer Pattern 观察者模式
+## [02 Observer Pattern 观察者模式](src/main/java/com/sherlocky/headfirst/pattern/_02_observer)
+
 **观察者模式**定义了对象之间一对多依赖（关系），这样一来，当一个对象改变状态时，它的所有依赖者都会受到通知并自动更新。
 
 > 实现观察者模式的方法不只一种，但是以包含``Subject``与``Observer``接口的类设计的做法最常见。
