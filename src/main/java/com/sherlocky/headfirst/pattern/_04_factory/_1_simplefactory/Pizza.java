@@ -1,4 +1,4 @@
-package com.sherlocky.headfirst.pattern._04_factory;
+package com.sherlocky.headfirst.pattern._04_factory._1_simplefactory;
 
 import java.util.ArrayList;
 

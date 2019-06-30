@@ -1,7 +1,5 @@
 package com.sherlocky.headfirst.pattern._04_factory._1_simplefactory;
 
-import com.sherlocky.headfirst.pattern._04_factory.Pizza;
-
 /**
  * 简单工厂的“客户”，PizzaStore通过SimplePizzaFactory取得披萨的实例。
  * @author: zhangcx

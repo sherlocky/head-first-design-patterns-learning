@@ -1,7 +1,5 @@
 package com.sherlocky.headfirst.pattern._04_factory._1_simplefactory;
 
-import com.sherlocky.headfirst.pattern._04_factory.Pizza;
-
 /**
  * {@link SimplePizzaFactory}
  */

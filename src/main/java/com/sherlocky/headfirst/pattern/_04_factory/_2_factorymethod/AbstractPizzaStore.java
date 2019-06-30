@@ -1,6 +1,6 @@
 package com.sherlocky.headfirst.pattern._04_factory._2_factorymethod;
 
-import com.sherlocky.headfirst.pattern._04_factory.Pizza;
+import com.sherlocky.headfirst.pattern._04_factory._1_simplefactory.Pizza;
 
 /**
  * 抽象 PizzaStore类，因为规模扩大后可以有很多不同区域的加盟店。

@@ -1,6 +1,6 @@
 package com.sherlocky.headfirst.pattern._04_factory._2_factorymethod;
 
-import com.sherlocky.headfirst.pattern._04_factory.Pizza;
+import com.sherlocky.headfirst.pattern._04_factory._1_simplefactory.Pizza;
 
 public class NYStyleClamPizza extends Pizza {
 

@@ -1,6 +1,6 @@
 package com.sherlocky.headfirst.pattern._04_factory._2_factorymethod;
 
-import com.sherlocky.headfirst.pattern._04_factory.Pizza;
+import com.sherlocky.headfirst.pattern._04_factory._1_simplefactory.Pizza;
 
 /**
  * 纽约Pizza加盟店
