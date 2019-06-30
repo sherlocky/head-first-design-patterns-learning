@@ -22,6 +22,13 @@ import com.sherlocky.headfirst.pattern._04_factory.pizza.Pizza;
  * @date: 2019/6/30 10:55
  */
 public abstract class AbstractPizzaStore {
+    /**
+     * 【工厂方法】的依赖倒置
+     * AbstractPizzaStore ”依赖于“ Pizza 这个抽象类。
+     * 具体的披萨类也依赖Pizza抽象，因为他们实现了Pizza的接口(广义)。
+     *
+     * 即：高层组件（AbstractPizzaStore）和低层组件（具体的Pizza类）都依赖了Pizza抽象。
+     */
 
     /**
      * 【工厂方法】
