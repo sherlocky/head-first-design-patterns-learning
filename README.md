@@ -50,3 +50,19 @@ Java I/O 中很多类都使用了装饰者模式。例如：
 > BufferedIputStream/LineNumberInputStream/PushbackInputStream/DataInputStream 等 都扩展自 FilterInputStream，而 FilterInputStream 是一个抽象的装饰类，对应的抽象组件是 InputStream。另外， Reader/Writer(基于字符数据的输入输出)和输入流/输出流的类相当类似(虽然有一些小的差异和不一致之处，但是相当雷同)。
 
 Java I/O 也引出装饰者模式的一个“缺点”：利用装饰者模式，经常造成设计中有大量的小类，数量实在太多，可能会造成使用此API程序员的困扰。
+
+## [04 Factory Pattern 工厂模式](src/main/java/com/sherlocky/headfirst/pattern/_04_factory)
+工厂模式可以分为三类：
+- 1）简单工厂（Simple Factory）
+    > 其实并非一种模式，更多的是编程习惯。
+- 2）工厂方法模式（Factory Method）
+    > 定义了一个创建对象的接口，但由子类决定要实例化的类是哪一个。  
+    工厂方法让类把实例化推迟到子类。工厂方法模式能够封装具体类型的实例化。
+    
+    > 简单工厂把全部的事情在一个地方都处理完了，然而工厂方法确实创建一个框架，让子类决定要如何实现。  
+    简单工厂的做法可以将对象的创建封装起来，但是简单工厂不具备工厂方法的弹性，因为简单工厂不能变更正在创建的产品。
+    
+- 3）抽象工厂模式（Abstract Factory）
+
+工厂（Factory）处理创建对象的细节。
+
