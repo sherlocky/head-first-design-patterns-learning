@@ -1,14 +1,12 @@
 package com.sherlocky.headfirst.pattern._04_factory._3_abstractfactory;
 
-import com.sherlocky.headfirst.pattern._04_factory.pizza._3_abstractfactory.ChicagoPizzaStore;
-import com.sherlocky.headfirst.pattern._04_factory.pizza._3_abstractfactory.NYPizzaStore;
-import com.sherlocky.headfirst.pattern._04_factory.pizza._3_abstractfactory.pizza.AbstractPizza;
-import com.sherlocky.headfirst.pattern._04_factory.pizza._3_abstractfactory.AbstractPizzaStore;
+import com.sherlocky.headfirst.pattern._04_factory._3_abstractfactory.factory.PizzaIngredientFactory;
+import com.sherlocky.headfirst.pattern._04_factory._3_abstractfactory.pizza.AbstractPizza;
 
 /**
  * {@link AbstractPizzaStore}
  * {@link AbstractPizza}
- * {@link com.sherlocky.headfirst.pattern._04_factory.pizza._3_abstractfactory.factory.PizzaIngredientFactory}
+ * {@link PizzaIngredientFactory}
  */
 public class PizzaTestDrive {
 

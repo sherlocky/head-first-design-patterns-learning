@@ -1,9 +1,6 @@
 package com.sherlocky.headfirst.pattern._04_factory._2_factorymethod;
 
-import com.sherlocky.headfirst.pattern._04_factory.pizza.Pizza;
-import com.sherlocky.headfirst.pattern._04_factory.pizza._2_factorymethod.AbstractPizzaStore;
-import com.sherlocky.headfirst.pattern._04_factory.pizza._2_factorymethod.ChicagoPizzaStore;
-import com.sherlocky.headfirst.pattern._04_factory.pizza._2_factorymethod.NYPizzaStore;
+import com.sherlocky.headfirst.pattern._04_factory.Pizza;
 
 /**
  * {@link AbstractPizzaStore}
