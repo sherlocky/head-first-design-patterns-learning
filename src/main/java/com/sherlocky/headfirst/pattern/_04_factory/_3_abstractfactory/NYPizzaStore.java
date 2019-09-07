@@ -3,7 +3,6 @@ package com.sherlocky.headfirst.pattern._04_factory._3_abstractfactory;
 import com.sherlocky.headfirst.pattern._04_factory._3_abstractfactory.factory.NYPizzaIngredientFactory;
 import com.sherlocky.headfirst.pattern._04_factory._3_abstractfactory.factory.PizzaIngredientFactory;
 import com.sherlocky.headfirst.pattern._04_factory._3_abstractfactory.pizza.*;
-import com.sherlocky.headfirst.pattern._04_factory.pizza._3_abstractfactory.pizza.*;
 
 public class NYPizzaStore extends AbstractPizzaStore {
 

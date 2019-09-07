@@ -1,7 +1,6 @@
 package com.sherlocky.headfirst.pattern._04_factory._3_abstractfactory.pizza;
 
 import com.sherlocky.headfirst.pattern._04_factory._3_abstractfactory.ingredient.*;
-import com.sherlocky.headfirst.pattern._04_factory.pizza._3_abstractfactory.ingredient.*;
 
 /**
  * 抽象产品--披萨
