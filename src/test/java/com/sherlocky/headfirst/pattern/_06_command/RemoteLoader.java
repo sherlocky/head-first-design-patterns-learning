@@ -1,4 +1,4 @@
-package com.sherlocky.headfirst.pattern._06_commond;
+package com.sherlocky.headfirst.pattern._06_command;
 
 public class RemoteLoader {
 
